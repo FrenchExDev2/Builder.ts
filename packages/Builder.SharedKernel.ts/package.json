@@ -1,0 +1,33 @@
+{
+  "name": "@frenchexdev2/builder-shared-kernel",
+  "version": "0.1.0",
+  "description": "Stable Builder feature references and implementation participation metadata",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@frenchexdev2/requirements-shared-kernel": "^0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
+  },
+  "engines": {
+    "node": ">=22.22"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

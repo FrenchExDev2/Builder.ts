@@ -1,0 +1,10 @@
+{
+  "specification": "packages/Builder.Requirements.ts/dist/specification.json",
+  "evidence": "packages/Builder.Tests.ts/test-results/latest-evidence.json",
+  "catalogueExport": "BuilderFeatures",
+  "businessModule": "@frenchexdev2/builder-shared-kernel",
+  "sources": [
+    "packages/Builder.ts/src",
+    "packages/Builder.ts/examples/generated-user/src"
+  ]
+}

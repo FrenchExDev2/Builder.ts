@@ -1,0 +1,395 @@
+{
+  "criteria": [
+    {
+      "name": "reportsUnresolvedStateAndRefusesPrematureAccess",
+      "title": "reports unresolved state and refuses premature access",
+      "file": "test/unit/builder.test.ts",
+      "line": 17
+    },
+    {
+      "name": "retainsIdentityAndRefusesASecondResolution",
+      "title": "retains identity and refuses a second resolution",
+      "file": "test/unit/builder.test.ts",
+      "line": 25
+    },
+    {
+      "name": "supportsTheNonNullValueJ",
+      "title": "supports the non-null value %j",
+      "file": "test/unit/builder.test.ts",
+      "line": 36
+    },
+    {
+      "name": "rejectsNullishValuesFromUntypedConsumersJ",
+      "title": "rejects nullish values from untyped consumers (%j)",
+      "file": "test/unit/builder.test.ts",
+      "line": 40
+    },
+    {
+      "name": "accumulatesAllErrorsWithFrozenDefensiveSnapshots",
+      "title": "accumulates all errors with frozen defensive snapshots",
+      "file": "test/unit/builder.test.ts",
+      "line": 51
+    },
+    {
+      "name": "preservesUnexpectedFactoryExceptionsAndClearsTheFailedAttempt",
+      "title": "preserves unexpected factory exceptions and clears the failed attempt",
+      "file": "test/unit/builder.test.ts",
+      "line": 146
+    },
+    {
+      "name": "blocksConfigurationDuringConstructionAndAfterSuccess",
+      "title": "blocks configuration during construction and after success",
+      "file": "test/unit/builder.test.ts",
+      "line": 163
+    },
+    {
+      "name": "keepsSiblingAncestryIndependent",
+      "title": "keeps sibling ancestry independent",
+      "file": "test/unit/builder.test.ts",
+      "line": 76
+    },
+    {
+      "name": "infersAsyncProductsAndCachesTheSameResultAndReference",
+      "title": "infers async products and caches the same result and reference",
+      "file": "test/unit/builder.test.ts",
+      "line": 91
+    },
+    {
+      "name": "resolvesACyclicGraphThroughDeferredReferencesWithoutRecursionOrDeadlock",
+      "title": "resolves a cyclic graph through deferred references without recursion or deadlock",
+      "file": "test/unit/builder.test.ts",
+      "line": 286
+    },
+    {
+      "name": "waitsForASharedChildInParallelSiblingPaths",
+      "title": "waits for a shared child in parallel sibling paths",
+      "file": "test/unit/builder.test.ts",
+      "line": 300
+    },
+    {
+      "name": "executesEverySyncAsyncValidatorInOrderAndSkipsInvalidConstruction",
+      "title": "executes every sync/async validator in order and skips invalid construction",
+      "file": "test/unit/builder.test.ts",
+      "line": 104
+    },
+    {
+      "name": "sharesValidationAndInstantiationBetweenConcurrentCallers",
+      "title": "shares validation and instantiation between concurrent callers",
+      "file": "test/unit/builder.test.ts",
+      "line": 120
+    },
+    {
+      "name": "allowsAnExplicitAttemptAfterValidationFailure",
+      "title": "allows an explicit attempt after validation failure",
+      "file": "test/unit/builder.test.ts",
+      "line": 135
+    },
+    {
+      "name": "preservesValidatorExceptionsWithoutInstantiating",
+      "title": "preserves validator exceptions without instantiating",
+      "file": "test/unit/builder.test.ts",
+      "line": 155
+    },
+    {
+      "name": "passesTheInitiatingSignalThroughValidationAndFactoryHooks",
+      "title": "passes the initiating signal through validation and factory hooks",
+      "file": "test/unit/builder.test.ts",
+      "line": 222
+    },
+    {
+      "name": "checksCancellationAfterValidationBeforeInstantiating",
+      "title": "checks cancellation after validation before instantiating",
+      "file": "test/unit/builder.test.ts",
+      "line": 250
+    },
+    {
+      "name": "preservesTypedDomainFailuresAndPermitsALaterExplicitBuild",
+      "title": "preserves typed domain failures and permits a later explicit build",
+      "file": "test/unit/builder.test.ts",
+      "line": 260
+    },
+    {
+      "name": "returnsTheInstanceDirectlyPreservesItsPrototypeAndSharesCachedSuccessAcrossAliases",
+      "title": "returns the instance directly, preserves its prototype and shares cached success across aliases",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 41
+    },
+    {
+      "name": "accumulatesEveryClassAndFluentFailureInDeclarationOrderOnTheSameInstance",
+      "title": "accumulates every class and fluent failure in declaration order on the same instance",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 54
+    },
+    {
+      "name": "copiesTheDecoratorValidatorListAndDoesNotExecuteValidatorsAtDecorationTime",
+      "title": "copies the decorator validator list and does not execute validators at decoration time",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 73
+    },
+    {
+      "name": "supportsAnArgumentFreeStandardDecorator",
+      "title": "supports an argument-free standard decorator",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 83
+    },
+    {
+      "name": "rejectsDuplicateRuntimeDecorationWithoutOverwritingTheRegisteredRules",
+      "title": "rejects duplicate runtime decoration without overwriting the registered rules",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 93
+    },
+    {
+      "name": "doesNotInheritValidatorsFromAnAncestorOrAnUnrelatedUndecoratedConstructor",
+      "title": "does not inherit validators from an ancestor or an unrelated undecorated constructor",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 104
+    },
+    {
+      "name": "doesNotCacheAValidationFailureAndAllowsExplicitCorrection",
+      "title": "does not cache a validation failure and allows explicit correction",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 113
+    },
+    {
+      "name": "sharesOneConstructionAndValidationAcrossConcurrentCalls",
+      "title": "shares one construction and validation across concurrent calls",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 123
+    },
+    {
+      "name": "preservesFactoryExceptionsAndPermitsALaterExplicitAttempt",
+      "title": "preserves factory exceptions and permits a later explicit attempt",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 139
+    },
+    {
+      "name": "preservesValidationExceptionsAndSkipsSubsequentRules",
+      "title": "preserves validation exceptions and skips subsequent rules",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 149
+    },
+    {
+      "name": "doesNotStartOrReturnACachedProductForAnAlreadyAbortedCall",
+      "title": "does not start or return a cached product for an already-aborted call",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 157
+    },
+    {
+      "name": "cancelsAFollowerIndependentlyAndRemovesItsListener",
+      "title": "cancels a follower independently and removes its listener",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 168
+    },
+    {
+      "name": "passesInitiatingCancellationThroughRulesAndNeverCachesACancelledCandidate",
+      "title": "passes initiating cancellation through rules and never caches a cancelled candidate",
+      "file": "test/unit/validated-builder.test.ts",
+      "line": 186
+    },
+    {
+      "name": "buildsAValidatedImmutableUserThroughADomainSpecificFluentAPI",
+      "title": "builds a validated immutable user through a domain-specific fluent API",
+      "file": "test/integration/user.test.ts",
+      "line": 4
+    },
+    {
+      "name": "returnsAllInvalidUserFieldsAndSupportsCorrectingThemExplicitly",
+      "title": "returns all invalid user fields and supports correcting them explicitly",
+      "file": "test/integration/user.test.ts",
+      "line": 12
+    },
+    {
+      "name": "rejectsAlreadyAbortedCallsWithoutStartingOrReturningACachedProduct",
+      "title": "rejects already aborted calls without starting or returning a cached product",
+      "file": "test/unit/builder.test.ts",
+      "line": 173
+    },
+    {
+      "name": "cancelsAFollowerWithoutCancellingTheSharedConstruction",
+      "title": "cancels a follower without cancelling the shared construction",
+      "file": "test/unit/builder.test.ts",
+      "line": 185
+    },
+    {
+      "name": "removesAFollowerCancellationListenerOnCompletion",
+      "title": "removes a follower cancellation listener on completion",
+      "file": "test/unit/builder.test.ts",
+      "line": 199
+    },
+    {
+      "name": "removesAFollowerCancellationListenerOnRejection",
+      "title": "removes a follower cancellation listener on rejection",
+      "file": "test/unit/builder.test.ts",
+      "line": 206
+    },
+    {
+      "name": "doesNotCommitAProductWhenTheInitiatingSignalAbortsDuringIO",
+      "title": "does not commit a product when the initiating signal aborts during I/O",
+      "file": "test/unit/builder.test.ts",
+      "line": 232
+    },
+    {
+      "name": "rejectsAnAlreadyAbortedWaitEvenWhenTheWorkHasAlreadySucceeded",
+      "title": "rejects an already aborted wait even when the work has already succeeded",
+      "file": "test/unit/wait-for.test.ts",
+      "line": 6
+    },
+    {
+      "name": "releasesTheAbortListenerImmediatelyWhenCancellingWorkThatStaysPending",
+      "title": "releases the abort listener immediately when cancelling work that stays pending",
+      "file": "test/unit/wait-for.test.ts",
+      "line": 14
+    },
+    {
+      "name": "recognizesBoundPackageDecoratorsS",
+      "title": "recognizes bound package decorators (%s)",
+      "file": "test/unit/generator.test.ts",
+      "line": 78
+    },
+    {
+      "name": "doesNotConfuseAnUnrelatedSameNamedDecoratorWithThePackageExport",
+      "title": "does not confuse an unrelated same-named decorator with the package export",
+      "file": "test/unit/generator.test.ts",
+      "line": 93
+    },
+    {
+      "name": "supportsTheDefaultNameAndArgumentFreeClasses",
+      "title": "supports the default name and argument-free classes",
+      "file": "test/unit/generator.test.ts",
+      "line": 102
+    },
+    {
+      "name": "rejectsIndirectRenamedExportsRatherThanEmittingAnInvalidNamedImport",
+      "title": "rejects indirect renamed exports rather than emitting an invalid named import",
+      "file": "test/unit/generator.test.ts",
+      "line": 110
+    },
+    {
+      "name": "diagnosesUnsupportedDeclarationsBeforeEmittingS",
+      "title": "diagnoses unsupported declarations before emitting: %s",
+      "file": "test/unit/generator.test.ts",
+      "line": 118
+    },
+    {
+      "name": "rejectsUnsupportedDecoratorOptionsS",
+      "title": "rejects unsupported decorator options: %s",
+      "file": "test/unit/generator.test.ts",
+      "line": 139
+    },
+    {
+      "name": "diagnosesDuplicateClassAnnotations",
+      "title": "diagnoses duplicate class annotations",
+      "file": "test/unit/generator.test.ts",
+      "line": 147
+    },
+    {
+      "name": "diagnosesDuplicateOutputPathsInsteadOfReplacingADifferentClass",
+      "title": "diagnoses duplicate output paths instead of replacing a different class",
+      "file": "test/unit/generator.test.ts",
+      "line": 154
+    },
+    {
+      "name": "executesEmittedSettersRequiredSlotsDefaultsValidationAndLifecycleOnRealInstances",
+      "title": "executes emitted setters, required slots, defaults, validation and lifecycle on real instances",
+      "file": "test/unit/generator.test.ts",
+      "line": 163
+    },
+    {
+      "name": "compilesEveryInternalLookingPublicNameWithoutCollisionsAndHandlesNonleadingRequiredSlots",
+      "title": "compiles every internal-looking public name without collisions and handles nonleading required slots",
+      "file": "test/unit/generator.test.ts",
+      "line": 227
+    },
+    {
+      "name": "providesActionableSourceLocatedDiagnosticsForSS",
+      "title": "provides actionable source-located diagnostics for %s %s",
+      "file": "test/unit/generator.test.ts",
+      "line": 253
+    },
+    {
+      "name": "rejectsInvalidIdentifierJ",
+      "title": "rejects invalid identifier %j",
+      "file": "test/unit/generator.test.ts",
+      "line": 279
+    },
+    {
+      "name": "acceptsExplicitQuotedOptionsS",
+      "title": "accepts explicit quoted options %s",
+      "file": "test/unit/generator.test.ts",
+      "line": 284
+    },
+    {
+      "name": "ignoresDecoratorsWithoutThePackageBindingS",
+      "title": "ignores decorators without the package binding: %s",
+      "file": "test/unit/generator.test.ts",
+      "line": 292
+    },
+    {
+      "name": "ordersSourceEmissionsDeterministicallyAndPreservesChangesReportedByAnyOutput",
+      "title": "orders source emissions deterministically and preserves changes reported by any output",
+      "file": "test/unit/generator.test.ts",
+      "line": 306
+    },
+    {
+      "name": "propagatesOutputDiagnosticsAndNeverShortCircuitsLaterOutputWrites",
+      "title": "propagates output diagnostics and never short-circuits later output writes",
+      "file": "test/unit/generator.test.ts",
+      "line": 320
+    },
+    {
+      "name": "skipsDeclarationsGeneratedCompanionsAndSourcesOutsideTheConfiguredRoot",
+      "title": "skips declarations, generated companions and sources outside the configured root",
+      "file": "test/unit/generator.test.ts",
+      "line": 330
+    },
+    {
+      "name": "usesModuleExtensionSCorrectlyAndAnchorsExtensionReplacementToTheFilename",
+      "title": "uses module extension .%s correctly and anchors extension replacement to the filename",
+      "file": "test/unit/generator.test.ts",
+      "line": 346
+    },
+    {
+      "name": "defaultsRootDirToSrcAndPrefixesSameDirectoryImportsWith",
+      "title": "defaults rootDir to src and prefixes same-directory imports with ./",
+      "file": "test/unit/generator.test.ts",
+      "line": 360
+    },
+    {
+      "name": "reportsTheCollidingOutputPathWithoutWritingPreviouslyValidEmissions",
+      "title": "reports the colliding output path without writing previously valid emissions",
+      "file": "test/unit/generator.test.ts",
+      "line": 372
+    },
+    {
+      "name": "reportsHandEditedOutputsWithoutChangingThemInVerificationMode",
+      "title": "reports hand-edited outputs without changing them in verification mode",
+      "file": "test/integration/generation.test.ts",
+      "line": 141
+    },
+    {
+      "name": "doesNotWriteAValidCompanionWhenAnotherClassHasAnUnsupportedConstructor",
+      "title": "does not write a valid companion when another class has an unsupported constructor",
+      "file": "test/integration/generation.test.ts",
+      "line": 153
+    },
+    {
+      "name": "loadsThePublicESMExportAndConstructsAProductFromTheCompiledDistribution",
+      "title": "loads the public ESM export and constructs a product from the compiled distribution",
+      "file": "test/integration/package.test.ts",
+      "line": 4
+    },
+    {
+      "name": "compilesAndExecutesConsumerWithClassValidation",
+      "title": "generates, typechecks, compiles and executes a clean consumer with real class validation",
+      "file": "test/integration/generation.test.ts",
+      "line": 61
+    },
+    {
+      "name": "preservesConstructorTypesDefaultsAndInternalNames",
+      "title": "compiles zero-argument classes, optional-only constructors, defaults before required arguments and internal-looking builder names",
+      "file": "test/integration/generation.test.ts",
+      "line": 134
+    }
+  ],
+  "preservedRegistrations": 65
+}

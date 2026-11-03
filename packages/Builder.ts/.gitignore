@@ -1,0 +1,9 @@
+node_modules/
+dist/
+test-results/
+coverage/
+*.tsbuildinfo
+examples/generated-user/src/generated/
+.stryker-tmp*/
+.stryker-incremental*.json
+stryker.log

@@ -1,0 +1,63 @@
+{
+  "name": "@frenchexdev2/builder",
+  "version": "0.1.0",
+  "description": "Async fluent builders with accumulated validation, typed results, shared construction and graph references.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./generator": {
+      "types": "./dist/generator/index.d.ts",
+      "import": "./dist/generator/index.js",
+      "default": "./dist/generator/index.js"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.js.map",
+    "dist/**/*.d.ts",
+    "dist/**/*.d.ts.map",
+    "LICENSE",
+    "README.md",
+    "src/**/*.ts",
+    "examples/**"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "pnpm run build:library && pnpm run generate && pnpm run build:examples",
+    "build:library": "tsc -p tsconfig.json",
+    "generate": "node node_modules/@frenchexdev2/ts-codegen-pipeline/dist/bin/sourcegen.js run --config examples/sourcegen.config.mjs",
+    "generate:check": "node node_modules/@frenchexdev2/ts-codegen-pipeline/dist/bin/sourcegen.js verify --config examples/sourcegen.config.mjs",
+    "build:examples": "tsc -p examples/generated-user/tsconfig.json",
+    "prepack": "pnpm run build"
+  },
+  "peerDependencies": {
+    "@frenchexdev2/result": "^0.1.0",
+    "@frenchexdev2/ts-codegen-pipeline": "^0.0.1"
+  },
+  "peerDependenciesMeta": {
+    "@frenchexdev2/ts-codegen-pipeline": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@frenchexdev2/result": "^0.1.0",
+    "@frenchexdev2/ts-codegen-pipeline": "^0.0.1",
+    "@types/node": "catalog:",
+    "ts-morph": "catalog:",
+    "typescript": "catalog:"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Stéphane Erard <stephane.erard@gmail.com> (https://serard.dev)",
+  "dependencies": {
+    "@frenchexdev2/builder-shared-kernel": "workspace:*"
+  }
+}

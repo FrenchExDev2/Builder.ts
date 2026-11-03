@@ -1,0 +1,54 @@
+{
+  "name": "@frenchexdev2/builder-tests",
+  "version": "0.1.0",
+  "description": "Independent Builder conformance, regression and mutation suite",
+  "type": "module",
+  "bin": {
+    "builder-tests": "./scripts/run.mjs"
+  },
+  "files": [
+    "test",
+    "scripts",
+    "vitest*.ts",
+    "stryker.conf.cjs",
+    "tsconfig*.json",
+    "README.md",
+    "LICENSE",
+    "migration.json"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "node scripts/typecheck.mjs",
+    "test:mutation": "pwsh -NoProfile -File scripts/Invoke-Validation.ps1 -Phase Mutation",
+    "evidence": "node scripts/evidence.mjs"
+  },
+  "dependencies": {
+    "@frenchexdev2/builder": "workspace:*",
+    "@frenchexdev2/builder-shared-kernel": "workspace:*",
+    "@frenchexdev2/builder-requirements": "workspace:*",
+    "@frenchexdev2/result": "^0.1.0",
+    "@frenchexdev2/requirements-shared-kernel": "^0.1.0",
+    "@frenchexdev2/requirements-trace": "^0.1.0",
+    "@frenchexdev2/ts-codegen-pipeline": "^0.0.1",
+    "typescript": "catalog:",
+    "ts-morph": "catalog:",
+    "vitest": "catalog:",
+    "@vitest/coverage-v8": "catalog:",
+    "@stryker-mutator/core": "catalog:",
+    "@stryker-mutator/vitest-runner": "catalog:",
+    "semver": "catalog:",
+    "@frenchexdev2/requirements-behavioral-check": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:"
+  },
+  "builderCompatibility": {
+    "@frenchexdev2/builder": "^0.1.0",
+    "@frenchexdev2/builder-requirements": "^0.1.0",
+    "@frenchexdev2/builder-shared-kernel": "^0.1.0"
+  },
+  "engines": {
+    "node": ">=22.22"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}
