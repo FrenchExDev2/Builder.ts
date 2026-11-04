@@ -40,7 +40,8 @@
     "@frenchexdev2/requirements-behavioral-check": "^0.1.0"
   },
   "devDependencies": {
-    "@types/node": "catalog:"
+    "@types/node": "catalog:",
+    "@typescript/native": "catalog:"
   },
   "builderCompatibility": {
     "@frenchexdev2/builder": "^0.1.0",

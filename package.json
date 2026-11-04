@@ -18,6 +18,7 @@
     "release:check": "node scripts/release.mjs check"
   },
   "devDependencies": {
+    "@typescript/native": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:",
     "@stryker-mutator/core": "catalog:",

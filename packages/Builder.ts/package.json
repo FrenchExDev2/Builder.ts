@@ -7,11 +7,13 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "source": "./src/index.ts",
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "default": "./dist/index.js"
     },
     "./generator": {
+      "source": "./src/generator/index.ts",
       "types": "./dist/generator/index.d.ts",
       "import": "./dist/generator/index.js",
       "default": "./dist/generator/index.js"
@@ -53,6 +55,7 @@
     "@frenchexdev2/ts-codegen-pipeline": "^0.0.1",
     "@types/node": "catalog:",
     "ts-morph": "catalog:",
+    "@typescript/native": "catalog:",
     "typescript": "catalog:"
   },
   "license": "SEE LICENSE IN LICENSE",

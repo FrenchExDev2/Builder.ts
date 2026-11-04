@@ -4,7 +4,6 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "strict": true,
-    "experimentalDecorators": true,
     "skipLibCheck": true,
     "noEmit": true,
     "types": [
@@ -16,6 +15,10 @@
         "../Builder.ts/dist/*.d.ts"
       ]
     },
-    "allowJs": true
+    "allowJs": true,
+    "ignoreDeprecations": "6.0",
+    "customConditions": [
+      "source"
+    ]
   }
 }
