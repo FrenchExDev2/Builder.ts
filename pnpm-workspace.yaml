@@ -17,9 +17,9 @@ overrides:
   # Paquets d'autres workspaces locaux (non publiés) : liés directement aux sources.
   '@frenchexdev2/result': 'link:../Result.Ts/packages/Result.Ts'
   '@frenchexdev2/ts-codegen-pipeline': 'link:../CodeGenerationPipeline.ts/packages/ts-codegen-pipeline'
-  '@frenchexdev2/requirements-shared-kernel': 'link:../Requirements.SharedKernel.ts/packages/requirements-shared-kernel'
-  '@frenchexdev2/requirements-trace': 'link:../Requirements.ts/packages/requirements-trace'
-  '@frenchexdev2/requirements-behavioral-check': 'link:../Requirements.ts/packages/requirements-behavioral-check'
+  '@frenchexdev2/requirements-shared-kernel': 'link:../Requirements.ts/packages/Requirements.SharedKernel.ts/packages/requirements-shared-kernel'
+  '@frenchexdev2/requirements-trace': 'link:../Requirements.ts/packages/Requirements.ts/packages/requirements-trace'
+  '@frenchexdev2/requirements-behavioral-check': 'link:../Requirements.ts/packages/Requirements.ts/packages/requirements-behavioral-check'
   'vite@8': '8.1.6'
   'nanoid@3': '3.3.18'
   'qs@6': '6.16.1'

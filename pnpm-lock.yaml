@@ -37,9 +37,9 @@ catalogs:
 overrides:
   '@frenchexdev2/result': link:../Result.Ts/packages/Result.Ts
   '@frenchexdev2/ts-codegen-pipeline': link:../CodeGenerationPipeline.ts/packages/ts-codegen-pipeline
-  '@frenchexdev2/requirements-shared-kernel': link:../Requirements.SharedKernel.ts/packages/requirements-shared-kernel
-  '@frenchexdev2/requirements-trace': link:../Requirements.ts/packages/requirements-trace
-  '@frenchexdev2/requirements-behavioral-check': link:../Requirements.ts/packages/requirements-behavioral-check
+  '@frenchexdev2/requirements-shared-kernel': link:../Requirements.ts/packages/Requirements.SharedKernel.ts/packages/requirements-shared-kernel
+  '@frenchexdev2/requirements-trace': link:../Requirements.ts/packages/Requirements.ts/packages/requirements-trace
+  '@frenchexdev2/requirements-behavioral-check': link:../Requirements.ts/packages/Requirements.ts/packages/requirements-behavioral-check
   vite@8: 8.1.6
   nanoid@3: 3.3.18
   qs@6: 6.16.1
@@ -73,8 +73,8 @@ importers:
         specifier: workspace:*
         version: link:../Builder.SharedKernel.ts
       '@frenchexdev2/requirements-shared-kernel':
-        specifier: link:../../../Requirements.SharedKernel.ts/packages/requirements-shared-kernel
-        version: link:../../../Requirements.SharedKernel.ts/packages/requirements-shared-kernel
+        specifier: link:../../../Requirements.ts/packages/Requirements.SharedKernel.ts/packages/requirements-shared-kernel
+        version: link:../../../Requirements.ts/packages/Requirements.SharedKernel.ts/packages/requirements-shared-kernel
     devDependencies:
       '@typescript/native':
         specifier: 'catalog:'
@@ -86,8 +86,8 @@ importers:
   packages/Builder.SharedKernel.ts:
     dependencies:
       '@frenchexdev2/requirements-shared-kernel':
-        specifier: link:../../../Requirements.SharedKernel.ts/packages/requirements-shared-kernel
-        version: link:../../../Requirements.SharedKernel.ts/packages/requirements-shared-kernel
+        specifier: link:../../../Requirements.ts/packages/Requirements.SharedKernel.ts/packages/requirements-shared-kernel
+        version: link:../../../Requirements.ts/packages/Requirements.SharedKernel.ts/packages/requirements-shared-kernel
     devDependencies:
       '@typescript/native':
         specifier: 'catalog:'
@@ -108,14 +108,14 @@ importers:
         specifier: workspace:*
         version: link:../Builder.SharedKernel.ts
       '@frenchexdev2/requirements-behavioral-check':
-        specifier: link:../../../Requirements.ts/packages/requirements-behavioral-check
-        version: link:../../../Requirements.ts/packages/requirements-behavioral-check
+        specifier: link:../../../Requirements.ts/packages/Requirements.ts/packages/requirements-behavioral-check
+        version: link:../../../Requirements.ts/packages/Requirements.ts/packages/requirements-behavioral-check
       '@frenchexdev2/requirements-shared-kernel':
-        specifier: link:../../../Requirements.SharedKernel.ts/packages/requirements-shared-kernel
-        version: link:../../../Requirements.SharedKernel.ts/packages/requirements-shared-kernel
+        specifier: link:../../../Requirements.ts/packages/Requirements.SharedKernel.ts/packages/requirements-shared-kernel
+        version: link:../../../Requirements.ts/packages/Requirements.SharedKernel.ts/packages/requirements-shared-kernel
       '@frenchexdev2/requirements-trace':
-        specifier: link:../../../Requirements.ts/packages/requirements-trace
-        version: link:../../../Requirements.ts/packages/requirements-trace
+        specifier: link:../../../Requirements.ts/packages/Requirements.ts/packages/requirements-trace
+        version: link:../../../Requirements.ts/packages/Requirements.ts/packages/requirements-trace
       '@frenchexdev2/result':
         specifier: link:../../../Result.Ts/packages/Result.Ts
         version: link:../../../Result.Ts/packages/Result.Ts
